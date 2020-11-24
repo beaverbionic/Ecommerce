@@ -224,3 +224,25 @@ h2 {
 .footer {
   left: 50%;
 }
+
+
+/* Shipping page css */
+
+.breadcrumb {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: .75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background: none;
+}
+
+.breadcrumbs nav {
+  padding: 1rem !important;
+}
+
+ol.breadcrumb {
+  justify-content: center;
+}
