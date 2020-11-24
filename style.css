@@ -246,3 +246,8 @@ h2 {
 ol.breadcrumb {
   justify-content: center;
 }
+
+/* Payment page css */
+.method {
+  font-weight: 300;
+}
