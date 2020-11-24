@@ -5,7 +5,7 @@
 }
 body {
   height: 100%;
-  background-color: whitesmoke;
+  background-color: #f3f2ed;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -97,6 +97,9 @@ nav a {
   height: 300px;
 }
 
+.main-container {
+  min-height: 90vh !important;
+}
 
 
 .carousel-item img {
@@ -219,7 +222,5 @@ h2 {
 
 /* Footer */
 .footer {
-  position: absolute;
-  bottom: 10px;
   left: 50%;
 }

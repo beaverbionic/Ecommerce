@@ -38,7 +38,7 @@
 
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="icon-shopping-cart"></i> &nbsp;Cart <span
+            <a class="nav-link" href="cart.html"><i class="icon-shopping-cart"></i> &nbsp;Cart <span
                 class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -48,57 +48,24 @@
       </nav>
     </div>
     <div class="container main-container">
-      <div class="row">
-        <div class="col-md-8">
-          <br>
-          <h2>Shopping Cart</h2>
-          <hr>
-          <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
-          </div>
 
-          <div class="item-list">
-            <img src="./Images/1.jfif" alt="sample item">
-            <p>Airpod Wireless Bluetooth Headphones</p>
-            <p>$89.99</p>
-            <div class="dropdown cart-dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                1
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <!-- <a class="dropdown-item" href="#">1</a> -->
-                <a class="dropdown-item" href="#">2</a>
-                <a class="dropdown-item" href="#">3</a>
-                <a class="dropdown-item" href="#">4</a>
-                <a class="dropdown-item" href="#">5</a>
-                <a class="dropdown-item" href="#">6</a>
-                <a class="dropdown-item" href="#">7</a>
-                <a class="dropdown-item" href="#">8</a>
-                <a class="dropdown-item" href="#">9</a>
-                <a class="dropdown-item" href="#">10</a>
-
-              </div>
-            </div>
-            <div><a class="nav-link" href="#"><i class="icon-trash"></i> </a></div>
-
-          </div>
-
-        </div>
-        <div class="col-md-4">
-          <br>
-          <div class="card">
-            <div class="card-header">
-              SUBTOTAL (0) ITEMS
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">$0.00</h5>
-              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-              <a href="#" class="btn btn-primary checkout-btn">Proceed To Checkout</a>
-            </div>
-          </div>
-        </div>
+      <div class="form-container">
+        <br>
+        <h2>SIGN UP</h2> <br>
+        <form class="form-signin">
+          <label>Name</label>
+          <input type="text" name="name" class="form-control" placeholder="Enter Name" required autofocus><br>
+          <label>Email Address</label>
+          <input type="email" name="email" class="form-control" placeholder="Enter Email" required><br>
+          <label>Password</label>
+          <input type="password" name="pass" class="form-control" placeholder="Enter Password" required><br>
+          <label>Confirm Password</label>
+          <input type="password" name="cpass" class="form-control" placeholder="Confirm Password" required><br>
+          <button class="btn btn-lg btn-primary" type="submit">Register</button><br> <br>
+          <p>Have An Account ? <a href="signin.html" class="register">Login</a></p>
+        </form>
       </div>
+
     </div>
   </div>
   <div class="footer">
