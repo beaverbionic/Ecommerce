@@ -31,6 +31,7 @@ nav a {
 }
 .btn {
   border-radius: 0;
+  background-color: #343a40!important;
 }
 
 .product-card {
@@ -193,4 +194,32 @@ ul {
 }
 .icon-trash {
   color: black;
+}
+
+/* Signin page css */
+
+.form-container{
+  margin: auto;
+  width: 60%;
+}
+
+label {
+  font-weight: 500;
+}
+
+.register {
+  color: black;
+  font-weight: 500;
+  font-style: none;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
 }
