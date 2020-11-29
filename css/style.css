@@ -5,7 +5,7 @@
 }
 body {
   height: 100%;
-  background-color: #f3f2ed;
+  background-color: whitesmoke;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -24,14 +24,26 @@ nav a {
   font-weight: 400;
 }
 
+button {
+  border-radius: inherit !important;
+}
 
 .form-control{
   border: none;
   border-radius: 0;
 }
 .btn {
+  margin: .5rem 0;
+  /* border: none !important; */
+}
+.btn-primary {
   border-radius: 0;
   background-color: #343a40!important;
+}
+.btn-warning {
+  border-radius: 0;
+  background-color: #ffc107!important;
+  width: 100%;
 }
 
 .product-card {
@@ -94,7 +106,7 @@ nav a {
 
 
 .carousel .carousel-item {
-  height: 300px;
+  height: 350px;
 }
 
 .main-container {
@@ -107,7 +119,7 @@ nav a {
   position: absolute;
   object-fit: fill;
   top: 84px;
-  left: 37%;
+  left: 40%;
   min-height: 200px;
   height: 70%;
   border-radius: 99%;
@@ -129,9 +141,14 @@ nav a {
 }
 
 .h3, h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 450;
 }
+
+.card-header{
+    font-weight: 500;
+}
+
 
 
 @media only screen and (max-width: 990px) {  
@@ -173,7 +190,7 @@ ul {
 
 .checkout-btn  {
   width: 100% !important;
-  background-color: #343a40!important;
+  /* background-color: #343a40!important; */
 }
 
 .item-list {
@@ -204,6 +221,11 @@ ul {
 .form-container{
   margin: auto;
   width: 60%;
+}
+.form-container-profile {
+  margin: auto;
+  width: 96%;
+
 }
 
 label {
@@ -250,4 +272,59 @@ ol.breadcrumb {
 /* Payment page css */
 .method {
   font-weight: 300;
+}
+
+/* Product page css */
+
+.product-qty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review {
+  margin-left: 1.5rem;
+}
+
+.product-img {
+  width: inherit;
+}
+
+/* place order */
+
+.item-list-place-order {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.btn img {
+  height: 15px !important;
+}
+
+
+/* Orderlist css */
+
+.cross {
+  color: red;
+  font-size: 1.2rem;
+}
+
+.details-btn {
+  background-color: whitesmoke !important;
+  color: black;
+}
+
+.details-btn:hover {
+  color: black !important;
+}
+
+.icon-trash-product {
+  color: white;
+}
+.icon-edit-product {
+  color: black;
+  font-weight: 600;
+}
+.edit {
+  background-color: white;
 }
